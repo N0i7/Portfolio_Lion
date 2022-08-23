@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+    <title>Contact me</title>
+    <style>
+      ion-icon {
+        font-size: 5rem;
+        color: blue;
+      }
+      ion-icon[name="logo-twitter"] {
+        color: rgb(82, 194, 231);
+      }
+      ion-icon[name="logo-instagram"] {
+        color: red;
+      }
+      ion-icon[name="logo-tiktok"] {
+        color: rgb(255, 255, 255);
+      }
+      ion-icon[name="logo-github"] {
+        color: rgb(147, 147, 147);
+      }
+
+    </style>
+  </head>
+  <body class="noise">
+    <div class="noisebg"> </div>
+    <h1>Kontaktformular</h1>
+    <br /><br /><br />
+    <nav class="top-nav">
+      <a href="../projectslides/main-slide.html">Home</a>
+      <a href="site1cv.html">Curriculum Vitae</a>
+      <a href="site2workz.html">Works</a>
+      <a href="site3about.html">About Me</a>
+      <a href="site4skillz.html">Skills</a>
+      <a href="site5contact.html" class="active-site">Contact</a>
+    </nav>
+    <div class="form">
+      <form>
+        <label>Name</label>
+        <input
+          type="text"
+          name="name"
+          required
+          placeholder="Maxime Mustermensch"
+        /><br /><br />
+        
+
+        <label for="">Nachricht</label>
+        <textarea
+          name="nachricht"
+          id=""
+          placeholder="Hier Text einfügen"
+        ></textarea
+        ><br /><br />
+
+      
+<!-- 
+        <label for="doc">Anhang</label>
+        <input type="file" /><br /><br /> -->
+        <label for="email">Email-Addresse</label>
+        <input type="text" required /><br /><br />
+        <br /><br /><br /><br />
+
+        <input type="checkbox" checked id="news" />
+        <label for="news">Newsletter-Anmeldung</label><br /><br /><br />
+
+        <button class="button-send"type="submit">SEND</button>
+      </form>
+    </div>
+    <footer class="icons-footer">
+      <a href="http://facebook.com" target="_blank">
+        <ion-icon name="logo-facebook"></ion-icon>
+      </a>
+      <br />
+      <a href="http://twitter.com" target="_blank">
+        <ion-icon name="logo-twitter"></ion-icon>
+      </a>
+      <br />
+      <a href="http://instagram.com" target="_blank">
+        <ion-icon name="logo-instagram"></ion-icon>
+      </a>
+      <br />
+      <br />
+      <a href="http://tiktok.com" target="_blank">
+        <ion-icon name="logo-tiktok"></ion-icon>
+      </a>
+      <br />
+      <br />
+      <a href="http://github.com" target="_blank">
+        <ion-icon name="logo-github"></ion-icon>
+      </a>
+    </footer>
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+ 
+  </body>
+</html>
