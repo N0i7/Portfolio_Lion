@@ -143,6 +143,7 @@ h1 {
   font-family: "Rubik Moonrocks";
   text-shadow: 1px 1px 2px rgb(249, 243, 243), 0 0 35px rgb(14, 10, 22),
     0 0 5px rgb(34, 2, 2);
+    font-size: 3rem;
 }
 
 /*site 1 cv*/
@@ -343,6 +344,8 @@ tr:nth-child(1) {
 p.aboutme-text {
   font-size: 2rem;
   padding: 12rem;
+  color:#ffffff;
+  margin-top: 10rem;
 }
 
 /*site 4 skillz*/
