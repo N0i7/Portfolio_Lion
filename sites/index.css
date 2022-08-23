@@ -43,7 +43,7 @@ nav a:hover {
 html {
   scroll-behavior: smooth;
 }
-@media screen and (max-width: 768px){
+@media screen and (max-width: 768px) {
   .top-nav {
     display: flex;
     align-items: stretch;
@@ -61,21 +61,15 @@ html {
     border-radius: 10px;
     letter-spacing: 5px;
   }
-  
-
 }
-  
-@media screen and (max-width: 1024px){
 
+@media screen and (max-width: 1024px) {
 }
-@media screen and (min-width: 1201px){
-  *{
+@media screen and (min-width: 1201px) {
+  * {
     font-size: 120%;
-    background-color: #be1515;
   }
-
 }
-
 
 /* noisebackground */
 body {
@@ -152,13 +146,12 @@ h1 {
 }
 
 /*site 1 cv*/
-#cvbild{
+#cvbild {
   height: 50rem;
   width: 50rem;
   border-radius: 100%;
- margin-left: 40%;
- box-shadow: 5px 5px 50px 5px;
- 
+  margin-left: 40%;
+  box-shadow: 5px 5px 50px 5px;
 }
 table,
 td,
@@ -183,6 +176,157 @@ tr:nth-child(1) {
   background-color: rgb(139, 139, 139);
   font-weight: bold;
 } /* site 2 works */
+/* grid */
+.work-grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  gap: 15px;
+  margin-top: 20rem;
+  height: 100vh;
+  width: 80vw;
+}
+.g1 {
+  grid-area: 1/1/2/3;
+  background: url(../img/1.jpeg) center/ cover no-repeat;
+  box-shadow: 5px 5px 10px 5px black;
+  border-radius: 5px;
+}
+.g2 {
+  grid-area: 1/3/2/4;
+  background: url(../img/2.jpeg) center/ cover no-repeat;
+  box-shadow: 5px 5px 10px 5px black;
+  border-radius: 5px;
+}
+.g3 {
+  grid-area: 1/3/2/4;
+  background: url(../img/3.jpeg) center/ cover no-repeat;
+  box-shadow: 5px 5px 10px 5px black;
+  border-radius: 5px;
+}
+.g4 {
+  grid-area: 1/4/2/5;
+  background: url(../img/4.jpeg) center/ cover no-repeat;
+  box-shadow: 5px 5px 10px 5px black;
+  border-radius: 5px;
+}
+.g5 {
+  grid-area: 1/5/2/6;
+  background: url(../img/5.jpeg) center/ cover no-repeat;
+  box-shadow: 5px 5px 10px 5px black;
+  border-radius: 5px;
+}
+.g6 {
+  grid-area: 2/1/3/2;
+  background: url(../img/6.jpeg) center/ cover no-repeat;
+  box-shadow: 5px 5px 10px 5px black;
+  border-radius: 5px;
+}
+.g7 {
+  grid-area: 2/2/3/3;
+  background: url(../img/7.jpeg) center/ cover no-repeat;
+  box-shadow: 5px 5px 10px 5px black;
+  border-radius: 5px;
+}
+.g8 {
+  grid-area: 2/3/3/4;
+  background: url(../img/8.jpeg) center/ cover no-repeat;
+  box-shadow: 5px 5px 10px 5px black;
+  border-radius: 5px;
+}
+.g9 {
+  grid-area: 2/4/3/5;
+  background: url(../img/9.jpeg) center/ cover no-repeat;
+  box-shadow: 5px 5px 10px 5px black;
+  border-radius: 5px;
+}
+.g10 {
+  grid-area: 2/5/3/6;
+  background: url(../img/10.jpeg) center/ cover no-repeat;
+  box-shadow: 5px 5px 10px 5px black;
+  border-radius: 5px;
+}
+.g11 {
+  grid-area: 3/1/4/2;
+  background: url(../img/11.jpeg) center/ cover no-repeat;
+  box-shadow: 5px 5px 10px 5px black;
+  border-radius: 5px;
+}
+/* change */
+.g12 {
+  grid-area: 3/2/4/4;
+  background: url(../img/12.jpeg) center/ cover no-repeat;
+  box-shadow: 5px 5px 10px 5px black;
+  border-radius: 5px;
+}
+/* change */
+.g13 {
+  grid-area: 2/2/3/4;
+  background: url(../img/13.jpeg) center/ cover no-repeat;
+  box-shadow: 5px 5px 10px 5px black;
+  border-radius: 5px;
+}
+.g14 {
+  grid-area: 3/4/4/5;
+  background: url(../img/14.jpeg) center/ cover no-repeat;
+  box-shadow: 5px 5px 10px 5px black;
+  border-radius: 5px;
+}
+.g15 {
+  grid-area: 3/5/4/6;
+  background: url(../img/15.jpeg) center/ cover no-repeat;
+  box-shadow: 5px 5px 10px 5px black;
+  border-radius: 5px;
+}
+.work-grid > .g1:hover {
+  box-shadow: 5px 5px 5px 5px #0d1d31;
+  border: 5px solid white;
+
+
+}
+.g2>img:hover {
+  background-color: black;
+}
+.g3:hover {
+  background-color: white;
+}
+.g4:hover {
+  background-color: black;
+}
+.g5:hover {
+  background-color: white;
+}
+.g6:hover {
+  background-color: black;
+}
+.g7:hover {
+  background-color: white;
+}
+.g8:hover {
+  background-color: black;
+}
+.g9:hover {
+  background-color: white;
+}
+.g10:hover {
+  background-color: black;
+}
+.g11:hover {
+  background-color: white;
+}
+.g12:hover {
+  background-color: black;
+}
+.g13:hover {
+  background-color: white;
+}
+.g14:hover {
+  background-color: black;
+}
+.g15:hover {
+  background-color: white;
+}
+
 /* css in stars.css */
 /* site 3 about */
 
@@ -195,9 +339,8 @@ tr:nth-child(1) {
   align-items: center;
   justify-content: space-around;
   flex-wrap: nowrap;
-  
 }
-p.aboutme-text{
+p.aboutme-text {
   font-size: 2rem;
   padding: 12rem;
 }
@@ -207,7 +350,7 @@ p.aboutme-text{
 .container {
   display: flex;
   flex-wrap: wrap;
-  justify-content:center;
+  justify-content: center;
   align-items: center;
   width: 100vw;
   height: 100vh;
