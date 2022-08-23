@@ -1,0 +1,21 @@
+{
+  "name": "portfolio_lion",
+  "version": "1.0.0",
+  "description": "portfoliopage",
+  "main": "index.js",
+  "scripts": {
+    "predeploy":"npm run build",
+    "deploy":"gh-pages -d build",
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/N0i7/Portfolio_Lion.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/N0i7/Portfolio_Lion/issues"
+  },
+  "homepage": "https://github.com/N0i7/Portfolio_Lion/sites/index.html"
+}
